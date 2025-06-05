@@ -35,12 +35,10 @@ for i in range(total_blocks):
     x += block_width + block_spacing
 
 # --- Save image ---
-output_dir = os.path.join(os.path.dirname(__file__), "output")
-os.makedirs(output_dir, exist_ok=True)
-filename = os.path.join(output_dir, f"progress_bar_{today}.png")
+os.makedirs("output", exist_ok=True)
+filename = f"output/progress_bar_{today}.png"
 img.save(filename)
 print(f"✅ Progress bar saved to: {filename}")
 
 print(f"{today}: {progress_pct * 100:.1f}% complete")
-
 

@@ -1,0 +1,11 @@
+# Ignore all generated outputs
+static/output/
+animated/output/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# OS and editor-specific
+.DS_Store
+.vscode/

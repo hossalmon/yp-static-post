@@ -1,12 +1,11 @@
 # Year Progress Bar Generator
 
-This script generates a static pixel-style horizontal progress bar indicating how far into the year we are.
+This project generates both static and animated progress bar visuals for social media posts.
 
-- ✅ White background
-- ✅ Black filled portion
-- ✅ Pixel aesthetic with 100 blocks
+## 📊 Static Bar Generator (`/static`)
+Generates a PNG image with a pixel-style horizontal bar.
 
-### How to Use
-
+Run:
 ```bash
-python generate.py
+python3 static/generate.py
+
